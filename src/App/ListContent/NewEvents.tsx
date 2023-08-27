@@ -23,8 +23,8 @@ const Content = (props: Props) => {
     <>
       <div id="new-events">
         <div className="list-header">
-          <img src="./img/list.svg" alt="イベントリスト" className='list-logo'/>
-          <div className="title">イベントリスト</div>
+          <img src="./img/list.svg" alt="観光スポット一覧" className='list-logo'/>
+          <div className="title">観光スポット一覧</div>
           <CloseListButton closeListHandler={closeListHandler} />
         </div>
         <EventList events={progressEvents} isPage={isPage} map={map} setIsPage={setIsPage} setEventDetail={setEventDetail} />
