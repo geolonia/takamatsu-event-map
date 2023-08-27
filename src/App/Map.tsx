@@ -44,8 +44,8 @@ const Component = (props: Props) => {
 
     const map = new window.geolonia.Map({
       container: mapContainer.current,
-      zoom: 14.42,
-      center: [131.80650, 33.11997],
+      zoom: 13.42,
+      center: [131.79964504, 33.119664],
       // @ts-ignore
       style: `${process.env.PUBLIC_URL}/style.json`,
       localIdeographFontFamily: 'sans-serif',
